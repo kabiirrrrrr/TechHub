@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ddd;
+    background-color: #24895A;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  .logo2{
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .web {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 80px;
+    border-top: 2px solid #eeeeee;
+  }
+  
+  .web img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .web-text h2 {
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .web-text p {
+    font-size: 15px;
+    color: #585858;
+    margin: 10px 0;
+  }
+   
+  .AMAZON {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 80px;
+    border-top: 2px solid #eeeeee;
+  }
+  
+  .AMAZON img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .AMAZON-text h2 {
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .AMAZON-text p {
+    font-size: 15px;
+    color: #585858;
+    margin: 10px 0;
+  }
+  .graphic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 80px;
+    border-top: 2px solid #eeeeee;
+  }
+  
+  .graphic img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .graphic-text h2 {
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .graphic-text p {
+    font-size: 15px;
+    color: #585858;
+    margin: 10px 0;
+  }
+  
+  .digital {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 80px;
+    border-top: 2px solid #eeeeee;
+  }
+  
+  .digital img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .digital-text h2 {
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .digital-text p {
+    font-size: 15px;
+    color: #585858;
+    margin: 10px 0;
+  }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}

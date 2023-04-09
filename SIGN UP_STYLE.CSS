@@ -1,0 +1,137 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+	font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ddd;
+    background-color: #24895A;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+
+form {
+	background-color: #f8f9fa;
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+	display: block;
+	margin: 20px auto 0;
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #24895A;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+	background-color: #083822;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
